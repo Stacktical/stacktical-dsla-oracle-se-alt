@@ -1,0 +1,3 @@
+IPFS_URI=https://ipfs.dsla.network
+WEB3_URI=http://localhost:8545
+HARMONY_URI=https://rpc.s0.t.hmny.io

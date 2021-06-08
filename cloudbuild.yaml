@@ -1,0 +1,13 @@
+steps:
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  args:
+  - gcloud
+  - functions
+  - deploy
+  - dsla-indexer
+  - --region=europe-west1
+  - --source=.
+  - --trigger-http
+  - --allow-unauthenticated
+  - --runtime=nodejs14
+  - --timeout=540s

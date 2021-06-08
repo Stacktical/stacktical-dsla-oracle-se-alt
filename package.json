@@ -1,0 +1,40 @@
+{
+  "name": "stacktical-dsla-indexer",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@chainlink/external-adapter": "^0.2.6",
+    "axios": "^0.21.1",
+    "bs58": "^4.0.1",
+    "debug": "^4.3.1",
+    "dotenv": "^8.2.0",
+    "ipfs-http-client": "^49.0.4",
+    "web3": "^1.3.5",
+    "web3-utils": "^1.3.5"
+  },
+  "devDependencies": {
+    "@google-cloud/functions-framework": "^1.7.1",
+    "npm-watch": "^0.9.0",
+    "prettier": "^2.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "indexer": "node -e 'require(\"./index\").indexer()'",
+    "dev": "npm-watch start",
+    "start": "DEBUG=develop NODE_ENV=development npx functions-framework --target=dsla-indexer --port 6060"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stacktical/stacktical-dsla-indexer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stacktical/stacktical-dsla-indexer/issues"
+  },
+  "homepage": "https://github.com/Stacktical/stacktical-dsla-indexer#readme",
+  "watch": {
+    "start": "*.js"
+  }
+}
