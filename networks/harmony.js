@@ -1,4 +1,6 @@
 const axios = require("axios");
+const Web3 = require("web3");
+const { MessengerABI } = require("../abis");
 const { HARMONY_URI } = process.env;
 
 async function getEndingEpoch(params) {
