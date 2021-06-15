@@ -60,7 +60,7 @@ async function getValidatorAPR(params) {
  *                     More info: https://expressjs.com/en/api.html#res
  */
 
-exports["dsla-indexer"] = async (req, res) => {
+exports["staking-efficiency-indexer"] = async (req, res) => {
   const { id, data } = req.body;
   console.log("Request Body:");
   console.log(req.body);

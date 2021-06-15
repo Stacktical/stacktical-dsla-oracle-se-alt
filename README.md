@@ -1,4 +1,4 @@
-# dsla-indexer
+# staking-efficiency-indexer
 
 ## Development
 
@@ -20,7 +20,8 @@ npm run dev
 ## Deployment
 
 ```
-gcloud functions deploy dsla-indexer --region=europe-west1 --source=. \
+gcloud functions deploy staking-efficiency-indexer \
+    --region=europe-west3 --source=. \
     --trigger-http --allow-unauthenticated \
     --runtime=nodejs14 --env-vars-file=./.env.yaml \
     --timeout=540s

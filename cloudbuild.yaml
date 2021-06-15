@@ -4,8 +4,8 @@ steps:
   - gcloud
   - functions
   - deploy
-  - dsla-indexer
-  - --region=europe-west1
+  - staking-efficiency-indexer
+  - --region=europe-west3
   - --source=.
   - --trigger-http
   - --allow-unauthenticated
