@@ -5,7 +5,7 @@ steps:
   - functions
   - deploy
   - staking-efficiency-indexer
-  - --region=europe-west1
+  - --region=europe-west3
   - --source=.
   - --trigger-http
   - --allow-unauthenticated
