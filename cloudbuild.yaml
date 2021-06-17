@@ -1,13 +1,13 @@
 steps:
-- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
-  args:
-  - gcloud
-  - functions
-  - deploy
-  - staking-efficiency-indexer
-  - --region=europe-west3
-  - --source=.
-  - --trigger-http
-  - --allow-unauthenticated
-  - --runtime=nodejs14
-  - --timeout=540s
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    args:
+      - gcloud
+      - functions
+      - deploy
+      - staking-efficiency-indexer
+      - --region=europe-west3
+      - --source=.
+      - --trigger-http
+      - --allow-unauthenticated
+      - --runtime=nodejs14
+      - --timeout=540s
