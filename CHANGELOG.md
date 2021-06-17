@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/Stacktical/stacktical-dsla-indexer/compare/v1.0.0...v1.1.0) (2021-06-17)
+
+
+### Features
+
+* web3 uri infered from network name ([7695e8f](https://github.com/Stacktical/stacktical-dsla-indexer/commit/7695e8f936baba2cca8e1203a44ee4bea3a09a45))
+
 ## 1.0.0 (2021-06-16)
 
 ### Features
