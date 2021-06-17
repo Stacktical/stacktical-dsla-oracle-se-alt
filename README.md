@@ -7,6 +7,7 @@
 1. Set your `.env` based on the `env-example`
 
 2. Install dependencies
+
 ```
 npm install --save-dev @google-cloud/functions-framework
 ```
