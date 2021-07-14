@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/Stacktical/stacktical-dsla-indexer/compare/v1.1.0...v1.1.1) (2021-07-14)
+
+
+### Features
+
+* adapter yaml file ([fefef7f](https://github.com/Stacktical/stacktical-dsla-indexer/commit/fefef7fc5324918b4ae681c656e02840d4110b91))
+
+
+### Bug Fixes
+
+* joi as prod dependency ([e8ff2a2](https://github.com/Stacktical/stacktical-dsla-indexer/commit/e8ff2a272efe0c85154e6b6458db53e7dc0a85cc))
+
 ## [1.1.0](https://github.com/Stacktical/stacktical-dsla-indexer/compare/v1.0.0...v1.1.0) (2021-06-17)
 
 

@@ -1,0 +1,13 @@
+name: Stacktical's Staking Efficiency Indexer
+description: An PoS networks staking efficiency indexer for the DSLA protocol.
+node_identifier: staking-efficiency
+platforms:
+  - GCP Functions
+data_sources:
+  - name: Harmony API
+    url: https://docs.harmony.one/home/developers/api
+parameters:
+  - network_name
+  - sla_address
+  - sla_monitoring_start
+  - sla_monitoring_end
