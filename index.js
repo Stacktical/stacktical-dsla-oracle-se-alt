@@ -18,12 +18,10 @@ async function getSLAData(address) {
   const ipfsCID = await slaContract.methods.ipfsHash().call();
   log('SLA IPFS url: ' + process.env.IPFS_URI + '/ipfs/' + ipfsCID);
   const periodType = await slaContract.methods.periodType().call();
-  const networkName = await slaContract.methods.extraData(0).call();
   const { data } = await axios.get(process.env.IPFS_URI + '/ipfs/' + ipfsCID);
   const messengerAddress = await slaContract.methods.messengerAddress().call();
-  return { ...data, periodType, networkName, messengerAddress };
+  return { ...data, periodType, messengerAddress };
 }
-
 function log(message) {
   const logger = debug('develop');
   logger(message);
