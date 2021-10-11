@@ -2,6 +2,8 @@
 
 ## Development
 
+https://readme.stacktical.com/developer-guide/how-to-create-a-use-case/step-by-step-specification/developing-the-external-adapter
+
 ### Getting started
 
 1. Set your `.env` based on the `env-example`
@@ -18,7 +20,7 @@ npm install --save-dev @google-cloud/functions-framework
 npm run dev
 ```
 
-## Deployment
+## Deployment to Cloud Functions
 
 ```
 gcloud functions deploy staking-efficiency-indexer \
