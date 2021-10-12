@@ -4,7 +4,7 @@ steps:
       - gcloud
       - functions
       - deploy
-      - staking-efficiency-indexer
+      - staking-efficiency-alt-indexer
       - --region=europe-west3
       - --source=.
       - --trigger-http

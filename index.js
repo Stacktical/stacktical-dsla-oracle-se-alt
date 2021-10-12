@@ -67,7 +67,7 @@ async function getValidatorAPR(requestData) {
   return Math.floor(apr * precision);
 }
 
-exports['staking-efficiency-indexer'] = async (req, res) => {
+exports['staking-efficiency-alt-indexer'] = async (req, res) => {
   const { id, data } = req.body;
   console.log('Request Body:');
   console.log(req.body);
