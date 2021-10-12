@@ -1,5 +1,5 @@
 {
-  "name": "staking-efficiency-alt-indexer",
+  "name": "staking-efficiency-indexer-alt",
   "version": "1.1.1",
   "description": "",
   "main": "index.js",
@@ -24,7 +24,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "indexer": "node -e 'require(\"./index\").indexer()'",
     "dev": "DEBUG=develop NODE_ENV=development npm-watch start",
-    "start": "npx functions-framework --target=staking-efficiency-alt-indexer --port 6060",
+    "start": "npx functions-framework --target=staking-efficiency-indexer-alt --port 6060",
     "release:patch": "standard-version --release-as patch",
     "release:minor": "standard-version --release-as minor",
     "release:major": "standard-version --release-as major"

@@ -1,4 +1,4 @@
-# staking-efficiency-alt-indexer
+# staking-efficiency-indexer-alt
 
 ## Development
 
@@ -20,8 +20,10 @@ npm run dev
 
 ## Deployment
 
+Generate `.env.yaml` from the `.env` file, then:
+
 ```
-gcloud functions deploy staking-efficiency-alt-indexer \
+gcloud functions deploy staking-efficiency-indexer-alt \
     --region=europe-west3 --source=. \
     --trigger-http --allow-unauthenticated \
     --runtime=nodejs14 --env-vars-file=./.env.yaml \
