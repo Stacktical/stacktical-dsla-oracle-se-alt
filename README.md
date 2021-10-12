@@ -20,6 +20,8 @@ npm run dev
 
 ## Deployment
 
+Generate `.env.yaml` from the `.env` file, then:
+
 ```
 gcloud functions deploy staking-efficiency-indexer-alt \
     --region=europe-west3 --source=. \
