@@ -16,6 +16,9 @@ const NETWORKS = {
   ETHEREUM: 'ethereum',
   POLYGON: 'polygon',
   HARMONY: 'harmony',
+  AVALANCHE: 'avalanche',
+  BSC: 'bsc',
+  FANTOM: 'fantom',
   KOVAN: 'kovan',
 };
 
