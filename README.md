@@ -1,4 +1,4 @@
-# staking-efficiency-indexer
+# staking-efficiency-indexer-alt
 
 ## Development
 
@@ -21,7 +21,7 @@ npm run dev
 ## Deployment
 
 ```
-gcloud functions deploy staking-efficiency-indexer \
+gcloud functions deploy staking-efficiency-indexer-alt \
     --region=europe-west3 --source=. \
     --trigger-http --allow-unauthenticated \
     --runtime=nodejs14 --env-vars-file=./.env.yaml \
